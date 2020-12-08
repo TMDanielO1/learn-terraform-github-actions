@@ -9,10 +9,10 @@ terraform {
   }
 
   backend "remote" {
-    organization = "CNCT-DSGW-Terraform01"
+    organization = "CNCT"
 
     workspaces {
-      name = "cnct-lab-testing"
+      name = "cnct-daniel-lab-testing"
     }
   }
 }
